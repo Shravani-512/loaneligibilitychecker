@@ -119,8 +119,7 @@ elif menu == "🚗 Car Loan":
         else:
             st.success("✅ You are eligible for a Car Loan!")
 
- if __name__ == "__main__":
-    # Optional: run with specific host and port using os.system
+# --- Run on EC2 ---
+if __name__ == "__main__":
     import os
-    os.system("streamlit run your_script.py --server.port 8501 --server.address 0.0.0.0")
-
+    os.system(f"streamlit run {__file__} --server.port 8501 --server.address 0.0.0.0")

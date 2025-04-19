@@ -122,5 +122,5 @@ elif menu == "🚗 Car Loan":
  if __name__ == "__main__":
     # Optional: run with specific host and port using os.system
     import os
-    os.system("streamlit run your_script.py --server.port 8500 --server.address 0.0.0.0")
+    os.system("streamlit run your_script.py --server.port 8501 --server.address 0.0.0.0")
 
